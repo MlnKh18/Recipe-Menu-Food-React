@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.container-sidebar {
+  box-shadow: 7px 4px 29px 0px rgba(213,213,213,0.75);
+  -webkit-box-shadow: 7px 4px 29px 0px rgba(213,213,213,0.75);
+  -moz-box-shadow: 7px 4px 29px 0px rgba(213,213,213,0.75);
+}
+.sidebar-link:hover {
+  @apply text-white bg-black transition-all ease-in-out duration-300 rounded-xl;
+}
